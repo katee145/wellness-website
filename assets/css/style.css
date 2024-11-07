@@ -18,9 +18,22 @@
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     height: 100vh; /* Sets the height of the section */
-    color: white; /* Sets the text color to white for better contrast */
+    color: #ffebd4; /* Sets the text color to #ffebd4 */
     display: flex; /* Uses flexbox for centering content */
     align-items: center; /* Vertically centers the content */
     justify-content: center; /* Horizontally centers the content */
     text-align: center; /* Centers the text */
+}
+
+.hero-heading {
+    font-family: 'Handlee', cursive; /* Applies the Handlee font to the heading */
+}
+
+.footer {
+    background-color: #3b2f2f; /* Brown background */
+    color: white; /* White text */
+}
+
+.footer .social-media a {
+    font-size: 1.5rem; /* Increase icon size */
 }
